@@ -1,0 +1,34 @@
+<h2 id="greeting">
+    اهلا بالضيف
+</h2>
+
+<div class="container">
+    <div class="row">
+        <center>
+            <div class="row">
+
+                <div style="width: 60%">
+                    <div class="widget-area no-padding blank">
+                        <div class="status-upload">
+                            <form>
+                                <textarea id="msgContentId" placeholder="ماذا تريد ان تكتب؟" ></textarea>
+
+                                <button type="button" onclick="sendMsg()" class="btn btn-success green"><i class="fa fa-share"></i> ارسل</button>
+                            </form>
+                        </div><!-- Status Upload  -->
+                    </div><!-- Widget Area -->
+                </div>
+
+            </div>
+
+            <div class="timeline-centered" id="msgsContainer" style="width: 60%; text-align: right;">
+
+
+            </div>
+            <button id="loadMore" onclick="showMsgs()">
+                اعرض المزيد..
+            </button>
+        </center>
+
+    </div>
+</div>

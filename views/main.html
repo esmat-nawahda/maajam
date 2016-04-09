@@ -1,0 +1,72 @@
+
+<div class="container">
+    <div class="row">
+        <div class="span4 well">
+            <div class="row">
+                <div class="span3">
+                    <h1 id="wordId">
+                        الكلمة
+                    </h1>
+                    <h2 id="rootId">
+                        الجذر
+                    </h2>
+                    <h3 id="descId">
+                        الوصف
+                    </h3>
+                    <span class=" badge badge-warning wordBtn" id="wordNounBtn">
+                        الاسم
+                    </span>
+                    <span class=" badge badge-info wordBtn" id="wordVerbBtn">
+                        الفعل
+                    </span>
+
+                    <span  style="position: relative; float: left; left: 5px;">
+                        <input
+                                style="background: transparent 0px"
+                                onclick='readText(lastWord)' type='button' value='🔊 تشغيل' />
+                    </span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container" id="verbsId">
+    <div class="row">
+        <h2>
+            الفعل
+        </h2>
+        <div class="span4 well">
+            <div class="row">
+                <div class="span3 wordVerbsCont">
+                    <ul id="wordVerbsCont">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" id="nounsId">
+    <div class="row">
+        <h2>
+            الاسم
+        </h2>
+        <div class="span4 well">
+            <div class="row">
+                <div class="span3 wordNounsCont">
+                    <ul id="wordNounsCont">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
